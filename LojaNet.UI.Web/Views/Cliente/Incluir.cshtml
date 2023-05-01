@@ -1,0 +1,26 @@
+﻿@model LojaNet.Models.Cliente
+
+@{
+    ViewBag.Title = "Incluir";
+}
+
+<h2>Incluir</h2>
+<form method="post" class="form-horizontal">
+    @Html.ValidationSummary(null, new{ @class="teste-danger"})
+    <div class="form-group">
+        <label class="control-label" for="Nome">Nome:</label>
+        @Html.EditorFor(model => model.Nome, new { htmlAtrributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        <label class="control-label" for="Telefone">Telefone:</label>
+        <input class="form-control" text" name="Telefone" value="@Model.Telefone" />
+    </div>
+    <div class="form-group">
+        <label class="control-label" for="Email">Email:</label>
+        <input class="form-control" type="email" name="Email" value="@Model.Email"/ >
+     </div>
+    <div class="form-group">
+        <input class="btn btn-default" type="submit" value="Gravar"/>
+    </div>
+</form>
+
