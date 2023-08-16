@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.Models", "LojaNet.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.UI.Web", "LojaNet.UI.Web\LojaNet.UI.Web.csproj", "{B30456EA-6845-4C3D-85D4-5ADA1D324D8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.Services", "LojaNet.Services\LojaNet.Services.csproj", "{FEC30BE5-0433-4E15-A0CB-1E3672F6836E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B30456EA-6845-4C3D-85D4-5ADA1D324D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B30456EA-6845-4C3D-85D4-5ADA1D324D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B30456EA-6845-4C3D-85D4-5ADA1D324D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC30BE5-0433-4E15-A0CB-1E3672F6836E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC30BE5-0433-4E15-A0CB-1E3672F6836E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC30BE5-0433-4E15-A0CB-1E3672F6836E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC30BE5-0433-4E15-A0CB-1E3672F6836E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

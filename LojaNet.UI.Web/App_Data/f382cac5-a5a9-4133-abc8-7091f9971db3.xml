@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>f382cac5-a5a9-4133-abc8-7091f9971db3</Id>
+  <Nome>Ricardo Marques Pereira</Nome>
+  <Email>ricardo.marques123@gmail.com</Email>
+  <Telefone>(11)98579225</Telefone>
+</Cliente>
